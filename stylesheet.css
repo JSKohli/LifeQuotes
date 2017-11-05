@@ -1,0 +1,110 @@
+html, body {
+  font-family: 'Oxygen', Helvetica, Sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.heading {
+  font-family: 'Lobster', Helvetica, Sans-serif;
+  height: 150%;
+  Opacity: 0.7;
+  color: #000;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+.bg-div {
+  background-repeat: no-repeat;
+  background: url(https://unsplash.it/1080/?random);
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+.sheet {
+  background: black;
+  opacity: 0.65;
+  padding: 0.5%;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+.quote {
+  
+  color: white;
+  font-size: 250%;
+  font-weight: bold;
+}
+
+blockquote p::first-letter {
+  font-size: 200%;
+  color: #66222f;
+}
+
+blockquote footer {
+  font-size: 150%;
+  font-weight: bold;
+  font-family: 'Oxygen';
+  text-align: right;
+  padding-right: 10%;
+}
+
+blockquote {
+  border: 0;
+}
+
+#tweet {
+  color: #ffffff;
+  background-color: black;
+  border-radius: 100%;
+  outline: none;
+}
+
+#tweet:hover,
+#fb:hover {
+  color: black;
+  background-color: white;
+}
+
+#tweet:active,
+#fb:active {
+  color: white;
+  background-color: black;
+}
+
+#fb {
+  color: #ffffff;
+  background-color: black;
+  border-radius: 20%;
+  outline: none;
+}
+
+#new-quote {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-right: 5%;
+  font-size: 125%;
+}
+
+#new-quote:hover {
+  background: white;
+  color: black;
+}
+
+#new-quote:active {
+  background: black;
+  color: white;
+}
+
+.credit {
+  font-family: Oxygen, Helvetica, Sans-serif;
+  font-size: 125%;
+  color: #ffffff;
+  opacity: 0.7;
+  
+}
